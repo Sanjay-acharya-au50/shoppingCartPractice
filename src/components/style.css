@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: aqua;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.div img {
+    height: 200px;
+    width: 150px;
+}
+
+.divTwo{
+    border: 1px solid black;
+    margin: 10px;
+
+    width: 220px;
+}
+
+.err{
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: auto auto    auto;
+}
+.bug{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 2px;
+}
+.map{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    justify-content: space-around;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pho1{
+    height: 100px;
+    width: 100px;
+}
+
+.btn{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+}
+.mid{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
